@@ -78,7 +78,7 @@ public class OpeningPage implements ActionListener {
         btnContact.setBackground(Color.BLUE);
         btnContact.setForeground(Color.WHITE);
 
-        ImageIcon backgroundImg = new ImageIcon("/home/sagar/Desktop/restaurant.jpg");
+        ImageIcon backgroundImg = new ImageIcon("restaurant.jpg");
         JLabel backgroundLabel = new JLabel(backgroundImg);
         backgroundLabel.setBounds(0, 0, 1000,500);
 
